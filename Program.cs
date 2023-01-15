@@ -23,7 +23,7 @@ Console.Clear();
 string[] array = new string[4] { "Hello", "2", "world", ":-)" };
 string[] newarray = new string[array.Length];
 
-void SecondArrayWithIF(string[] array, string[] newarray)
+void CheckNewArray(string[] array, string[] newarray)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
@@ -45,5 +45,5 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-SecondArrayWithIF(array, newarray);
+CheckNewArray(array, newarray);
 PrintArray(newarray);
